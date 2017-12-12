@@ -1,6 +1,6 @@
 {
   "name": "@redux-offline/redux-offline",
-  "version": "2.2.2",
+  "version": "2.2.1",
   "description": "Redux Offline-First Architecture",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,6 @@
     "flow": "flow; test $? -eq 0 -o $? -eq 2",
     "lint": "eslint src/",
     "prepublish": "npm run lint && npm run flow && npm run test && npm run build",
-    "prepare": "npm run build",
     "prettier": "eslint src --fix",
     "test": "jest",
     "test:watch": "jest --watch",
